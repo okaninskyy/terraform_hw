@@ -32,7 +32,7 @@ resource "aws_instance" "my_web_instance" {
     password = ""
     #copy <your_private_key>.pem to your local instance home directory
     #restrict permission: chmod 400 <your_private_key>.pem
-    private_key = file("~/.ssh/id_rsa")
+    private_key = file("./key_name")
     host        = self.public_ip
   }
 }

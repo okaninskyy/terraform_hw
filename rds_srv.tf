@@ -17,7 +17,7 @@ resource "aws_db_instance" "my_database_instance" {
   port                   = 3306
   vpc_security_group_ids = ["${aws_security_group.db_security_group.id}"]
   db_subnet_group_name   = aws_db_subnet_group.my_database_subnet_group.name
-  name                   = "mydb"
+  db_name                = "mydb"
   identifier             = "mysqldb"
   username               = "myuser"
   password               = "mypassword"

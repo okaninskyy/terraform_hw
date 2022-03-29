@@ -8,7 +8,7 @@ provider "aws" {
 #Create key-pair for logging into EC2 
 resource "aws_key_pair" "webserver-key" {
   key_name   = "webserver-key"
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = file("./key_name.pub")
 }
 
 #Get Linux AMI ID using SSM Parameter endpoint in us-east-1

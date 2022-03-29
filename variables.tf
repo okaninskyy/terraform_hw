@@ -2,11 +2,11 @@
 #declare variables
 
 variable "access_key" {
-  default = "AKIAQSA6V4VU2PZ37IGT"
+  default = "AKIAYB224MW2HPWNS5NB"
 }
 
 variable "secret_key" {
-  default = "/Y4Tp2uq/1m+O9cbCVov1+aVE4lm9Vi8QmY2j4rb"
+  default = "gSuDXDzmk4E0O3vXUo0RT1Fa68JBI5RKmLS1pacL"
 }
 
 variable "region" {
